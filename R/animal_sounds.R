@@ -1,5 +1,9 @@
 #' Print the Sound than an Animal Makes
 #'
+#' Provides a simple wrapper around [paste0()].
+#'
+#' Please note that this is a **toy package**!
+#'
 #' @param animal A character string
 #' @param sound A character string
 #'

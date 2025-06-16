@@ -15,7 +15,10 @@ animal_sounds(animal, sound)
 A string saying what sound the animal makes
 }
 \description{
-Print the Sound than an Animal Makes
+Provides a simple wrapper around \code{\link[=paste0]{paste0()}}.
+}
+\details{
+Please note that this is a \strong{toy package}!
 }
 \examples{
 animal_sounds("dog", "woof")
