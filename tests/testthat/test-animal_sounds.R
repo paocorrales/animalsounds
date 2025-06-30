@@ -11,8 +11,20 @@ test_that("animal_sounds produces expeted strings", {
 test_that("handles invalid inputs", {
 
   expect_error(animal_sounds("dog", c("woof", "bow wow wow")),
-              class = "error_not_single_string")
+               class = "error_not_single_string")
 
   expect_error(animal_sounds(factor("cat"), "miaow"),
                class = "error_not_single_string")
+})
+
+
+test_that("error message for invalid input", {
+  expect_snapshot(animal_sounds("dog", c("woof", "bow wow wow")),
+                  error = TRUE)
+})
+
+test_that("animals without sound", {
+  giraffe <- animal_sounds("giraffe")
+  expect_equal(giraffe,
+               "The giraffe makes no sound.")
 })
