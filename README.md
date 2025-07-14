@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/paocorrales/animalsounds/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/paocorrales/animalsounds/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 animalsounds is a toy package created during a package development
