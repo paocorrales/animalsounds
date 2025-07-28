@@ -1,8 +1,11 @@
 Package: animalsounds
-Title: Sounds that Aninmals Make
-Version: 0.0.0.9000
+Title: Sounds that Animals Make
+Version: 0.1.0
 Authors@R: 
-    person("Ella", "Kaye", , "ella.m.kaye@warwick.ac.uk", role = c("aut", "cre"))
+    c(person("Elio", "Campitelli", , "eliocampitelli@gmail.com", 
+            role = c("aut", "cre")),
+      person("Ella", "Kaye", , "ella.m.kaye@warwick.ac.uk", 
+            role = c("aut")))      
 Description: Prints the name of an animal and the sound it makes in the console.
 License: MIT + file LICENSE
 Encoding: UTF-8
